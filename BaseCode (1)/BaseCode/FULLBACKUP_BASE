@@ -1,0 +1,24 @@
+/*
+SQLyog Ultimate v12.4.3 (64 bit)
+MySQL - 10.4.11-MariaDB : Database - BASE
+*********************************************************************
+*/
+
+/*!40101 SET NAMES utf8 */;
+
+/*!40101 SET SQL_MODE=''*/;
+
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+CREATE DATABASE /*!32312 IF NOT EXISTS*/`BASE` /*!40100 DEFAULT CHARACTER SET utf8mb4 */;
+
+USE `BASE`;
+
+/*Data for the table `USER` */
+
+insert  into `USER`(`USER_ID`,`FIRST_NAME`,`LAST_NAME`,`USER_NAME`,`PASSWORD`,`STATUS`,`CREATE_DATE`,`UPDATE_DATE`) values (1,'Mackie','Quizon','Neth','Abc123','A','2020-08-16 16:47:25','2020-08-16 16:54:42');
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
